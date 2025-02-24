@@ -47,12 +47,6 @@ disturb_tf = tf(disturb_ss);
 
 % bode(disturb_tf(1))
 
-gilid = disturb_tf(1);
-gvid = disturb_tf(2);
+gilid = disturb_tf(1)
+gvid = disturb_tf(2)
 
-golcc = cc*gid;
-G1 = gilid/golcc;
-
-G2 = gvid/gpvc;
-
-bode(G2)
