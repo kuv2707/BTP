@@ -9,3 +9,7 @@ d_il=0.05*io;
 L=(d*vin)/(f*d_il);
 c=d*io/(d_vc*f);
 r=0.01;
+vmax=55;
+vmin=48;
+kdroop=(vmax-vmin)/io;
+

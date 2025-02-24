@@ -53,6 +53,6 @@ gvid = disturb_tf(2);
 golcc = cc*gid;
 G1 = gilid/golcc;
 
-G2 = gvid/gpvc;
+G2 = 
 
 bode(G2)
