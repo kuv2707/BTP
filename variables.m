@@ -9,3 +9,13 @@ d_il=0.05*io;
 L=(d*vin)/(f*d_il);
 c=d*io/(d_vc*f);
 r=0.01;
+
+%% --- virtual's parameters
+cv = 1;
+Tf = 0.05;
+gv = 0.1;
+
+%% -----
+
+titty = tf([cv 0],[Tf 1]);
+bode(titty)
