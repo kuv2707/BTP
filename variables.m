@@ -17,5 +17,5 @@ gv = 0.1;
 
 %% -----
 
-titty = tf([cv 0],[Tf 1]);
-bode(titty)
+ttt = tf([cv 0],[Tf 1]);
+bode(ttt)
